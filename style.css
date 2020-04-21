@@ -1,24 +1,40 @@
+body {
+  padding: 2% 5%;
+  font-family: avenir, arial, tahoma, monospace, sans-serif;
+}
+
 * {
-  background: rgb(32,32,32);
+  background: rgb(32, 32, 32);
   color: whitesmoke;
   font-family: avenir, arial, helvetica, sans-serif;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   transition: 0.25s;
-}
-
-button {
-  padding: 10px;
-}
-
-button:hover, button:focus {
-  background: lime;
-  color: black;
-}
-
-a:hover, a:focus {
-  color: lime;
 }
 
 *:focus {
   text-decoration: underline;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+}
+
+button:hover,
+input:hover,
+textarea:hover,
+button:focus,
+input:focus,
+textarea:focus {
+  background: lime;
+  color: black;
+}
+
+a:hover,
+a:focus {
+  color: lime;
 }
