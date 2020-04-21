@@ -1,3 +1,7 @@
+# My personal CSS boilerplate
+
+![version](https://img.shields.io/github/release/hchiam/css-boilerplate)
+
 ## Example use:
 
 ```html
