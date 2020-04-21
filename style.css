@@ -11,10 +11,6 @@ body {
   transition: 0.25s;
 }
 
-*:focus {
-  text-decoration: underline;
-}
-
 button {
   padding: 0.5rem;
 }
@@ -37,4 +33,9 @@ textarea:focus {
 a:hover,
 a:focus {
   color: lime;
+}
+
+button:focus,
+a:focus {
+  text-decoration: underline;
 }
