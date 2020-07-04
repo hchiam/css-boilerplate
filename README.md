@@ -5,5 +5,10 @@
 ## Example usage
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hchiam/css-boilerplate@3.0.0/style.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/hchiam/css-boilerplate@3.0.0/style.css"
+  integrity="sha384-pfn/sdRcv9EkffLtV8GvjcFfxZn6ZveZi/WFaPKpFoEZvqI0COU2nINAi31PFLCH"
+  crossorigin="anonymous"
+/>
 ```
