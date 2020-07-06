@@ -13,6 +13,9 @@ body {
 
 button {
   padding: 0.5rem;
+  border: none;
+  background: rgb(50, 50, 50);
+  box-shadow: 2px 2px 5px black;
 }
 
 input,
