@@ -12,3 +12,7 @@
   crossorigin="anonymous"
 />
 ```
+
+```bash
+echo sha384-$(cat style.css | openssl dgst -sha384 -binary | openssl base64 -A)
+```
