@@ -23,23 +23,23 @@ textarea {
   padding: 0.5rem;
 }
 
-button:hover,
-input:hover,
-textarea:hover,
-button:focus,
-input:focus,
-textarea:focus {
+button:not(:disabled):hover,
+input:not(:disabled):hover,
+textarea:not(:disabled):hover,
+button:not(:disabled):focus,
+input:not(:disabled):focus,
+textarea:not(:disabled):focus {
   background: lime;
   color: black;
 }
 
-a:hover,
-a:focus {
+a:not(:disabled):hover,
+a:not(:disabled):focus {
   color: lime;
 }
 
-button:focus,
-a:focus {
+button:not(:disabled):focus,
+a:not(:disabled):focus {
   text-decoration: underline;
 }
 
