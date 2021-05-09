@@ -9,6 +9,7 @@ body {
   font-family: avenir, arial, helvetica, sans-serif;
   border-radius: 0.5rem;
   transition: 0.25s;
+  box-sizing: border-box;
 }
 
 button {
