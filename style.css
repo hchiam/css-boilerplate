@@ -44,6 +44,11 @@ a:not(:disabled):focus {
   text-decoration: underline;
 }
 
+a[target="_blank"]::after {
+  /* <a aria-description="(opens in new window)" target="_blank" href="..."> */
+  content: " ↗️";
+}
+
 code {
   font-family: monospace;
 }
