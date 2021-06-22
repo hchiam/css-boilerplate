@@ -1,6 +1,6 @@
 # My personal CSS boilerplate
 
-![version](https://img.shields.io/github/release/hchiam/css-boilerplate) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/hchiam/css-boilerplate/blob/master/LICENSE) [![HitCount](http://hits.dwyl.com/hchiam/css-boilerplate.svg)](http://hits.dwyl.com/hchiam/css-boilerplate)
+![version](https://img.shields.io/github/release/hchiam/css-boilerplate) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/hchiam/css-boilerplate/blob/master/LICENSE)
 
 ## Example usage
 
