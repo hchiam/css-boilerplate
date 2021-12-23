@@ -17,18 +17,35 @@
   --mie: 0;
 }
 
-body {
-  padding: 2% 5%;
-  font-family: avenir, arial, tahoma, monospace, sans-serif;
-}
-
 * {
   background: rgb(32, 32, 32);
   color: whitesmoke;
   font-family: avenir, arial, helvetica, sans-serif;
   border-radius: 0.5rem;
   transition: 0.25s;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 2% 5%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root,
+#__next {
+  isolation: isolate;
 }
 
 button {
@@ -80,6 +97,32 @@ a[target="_blank"]::after {
 
 code {
   font-family: monospace;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
 
 [style*="--p:"] {
