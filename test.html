@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css-boilerplate test</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* NON-ESSENTIAL STYLES FOLLOW: */
+
+      .code > pre {
+        background: black;
+        color: lightgreen;
+        font-family: monospace;
+        padding: 1rem;
+        transition: background 0.2s, color 0.2s;
+      }
+
+      .code > pre:hover {
+        background: #111;
+        color: lime;
+        font-weight: bold;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/hchiam/flying-focus@latest/flying-focus.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hchiam/clipboard@4.0.1/copyToClipboard.js"></script>
+  </head>
+  <body>
+    <h2>h2</h2>
+    <p>p</p>
+    <button>btn</button>
+    <a href="#">link</a>
+    <button style="--p: 1; --mi: 1; --mb: -0.5">btn 2</button>
+    <a href="#" target="_blank" rel="noopener noreferrer">new window link</a>
+
+    <pre class="code">
+&lt;p&gt;Some p tag&lt;/p&gt;
+.some_selector {
+  background: transparent;
+}
+Some really long text to visually see and test out how the wrapping would look like. Try different screen widths to see how it would look like. Does it wrap or not? Or does it truncate? Or does it affect the width of the page?</pre
+    >
+
+    <script>
+      createElementToClickToCopyToClipboard(".code", callbackAlert);
+
+      function callbackAlert(text) {
+        alert("COPIED TO YOUR CLIPBOARD: \n\n" + text);
+      }
+    </script>
+  </body>
+</html>
