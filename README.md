@@ -7,8 +7,8 @@
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/hchiam/css-boilerplate@6.0.0/style.css"
-  integrity="sha384-thHsntRltFQFgrHgl7/avBhQ+uXkABJlP8wgGW62xGYYlLgaPGbEFQ0xdPcVDDI8"
+  href="https://cdn.jsdelivr.net/gh/hchiam/css-boilerplate@6.1.0/style.css"
+  integrity="sha384-fVUNiK/R+LmLKHaPY3Lc5NrrrFrpUi9i3xirZsFEieuXFgqqe7nqsyUlzYF+XxoS"
   crossorigin="anonymous"
 />
 ```
