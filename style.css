@@ -1,4 +1,5 @@
 :root {
+  --accent-colour: lime;
   --p: 0;
   --m: 0;
 
@@ -66,13 +67,13 @@ textarea:not(:disabled):hover,
 button:not(:disabled):focus,
 input:not(:disabled):focus,
 textarea:not(:disabled):focus {
-  background: lime;
+  background: var(--accent-colour);
   color: black;
 }
 
 a:not(:disabled):hover,
 a:not(:disabled):focus {
-  color: lime;
+  color: var(--accent-colour);
 }
 
 button:not(:disabled):focus,
