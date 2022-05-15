@@ -1,5 +1,6 @@
 :root {
   --accent-colour: lime;
+  accent-color: var(--accent-colour);
   --p: 0;
   --m: 0;
 
